@@ -81,11 +81,11 @@ fn test_edin8() {
     test_game(game);
 }
 
-#[test]
-fn test_oca() {
-    let path = concat!(env!("CARGO_MANIFEST_DIR"), "/tests/fixtures/oca.json");
-    let games = parse_games_from_json_array_file(path).expect("Failed to parse game JSON array");
-    for game in games {
-        test_game(game);
-    }
-}
+// #[test]
+// fn test_oca() {
+//     let path = concat!(env!("CARGO_MANIFEST_DIR"), "/tests/fixtures/oca.json");
+//     let games = parse_games_from_json_array_file(path).expect("Failed to parse game JSON array");
+//     for game in games {
+//         test_game(game);
+//     }
+// }

@@ -1,0 +1,466 @@
+{
+    "headers": [
+        {
+            "name": "Event",
+            "value": "German Open 2004"
+        },
+        {
+            "name": "Date",
+            "value": "2004-05-01"
+        },
+        {
+            "name": "Black",
+            "value": "Pawlek, Dennis"
+        },
+        {
+            "name": "White",
+            "value": "Springer, Leo"
+        },
+        {
+            "name": "Site",
+            "value": "Reutlingen"
+        },
+        {
+            "name": "Result",
+            "value": "1/2-1/2"
+        }
+    ],
+    "moves": [
+        {
+            "number": 1,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    11,
+                    15
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    22,
+                    18
+                ]
+            }
+        },
+        {
+            "number": 2,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    15,
+                    22
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    25,
+                    18
+                ]
+            }
+        },
+        {
+            "number": 3,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    8,
+                    11
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    29,
+                    25
+                ]
+            }
+        },
+        {
+            "number": 4,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    10,
+                    15
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    25,
+                    22
+                ]
+            }
+        },
+        {
+            "number": 5,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    4,
+                    8
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    21,
+                    17
+                ]
+            }
+        },
+        {
+            "number": 6,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    7,
+                    10
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    17,
+                    13
+                ]
+            }
+        },
+        {
+            "number": 7,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    9,
+                    14
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    18,
+                    9
+                ]
+            }
+        },
+        {
+            "number": 8,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    5,
+                    14
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    24,
+                    19
+                ]
+            }
+        },
+        {
+            "number": 9,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    15,
+                    24
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    28,
+                    19
+                ]
+            }
+        },
+        {
+            "number": 10,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    11,
+                    15
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    23,
+                    18
+                ]
+            }
+        },
+        {
+            "number": 11,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    15,
+                    24
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    18,
+                    9
+                ]
+            }
+        },
+        {
+            "number": 12,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    1,
+                    5
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    27,
+                    20
+                ]
+            }
+        },
+        {
+            "number": 13,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    5,
+                    14
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    26,
+                    23
+                ]
+            }
+        },
+        {
+            "number": 14,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    10,
+                    15
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    31,
+                    27
+                ]
+            }
+        },
+        {
+            "number": 15,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    15,
+                    19
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    23,
+                    16
+                ]
+            }
+        },
+        {
+            "number": 16,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    12,
+                    19
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    22,
+                    18
+                ]
+            }
+        },
+        {
+            "number": 17,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    14,
+                    23
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    27,
+                    18
+                ]
+            }
+        },
+        {
+            "number": 18,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    3,
+                    7
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    18,
+                    14
+                ]
+            }
+        },
+        {
+            "number": 19,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    7,
+                    10
+                ]
+            },
+            "white": {
+                "kind": "jump",
+                "moves": [
+                    14,
+                    7
+                ]
+            }
+        },
+        {
+            "number": 20,
+            "black": {
+                "kind": "jump",
+                "moves": [
+                    2,
+                    11
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    30,
+                    26
+                ]
+            }
+        },
+        {
+            "number": 21,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    8,
+                    12
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    26,
+                    22
+                ]
+            }
+        },
+        {
+            "number": 22,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    19,
+                    23
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    22,
+                    18
+                ]
+            }
+        },
+        {
+            "number": 23,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    6,
+                    10
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    13,
+                    9
+                ]
+            }
+        },
+        {
+            "number": 24,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    23,
+                    26
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    9,
+                    5
+                ]
+            }
+        },
+        {
+            "number": 25,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    26,
+                    30
+                ]
+            },
+            "white": {
+                "kind": "simple",
+                "moves": [
+                    5,
+                    1
+                ]
+            }
+        },
+        {
+            "number": 26,
+            "black": {
+                "kind": "simple",
+                "moves": [
+                    10,
+                    15
+                ]
+            },
+            "white": null
+        }
+    ]
+}

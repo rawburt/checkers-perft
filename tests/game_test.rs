@@ -1,6 +1,6 @@
 use checkers_perft::{
     board::{Board, Color},
-    game_json::{parse_games_from_json_array_file, Game},
+    game_json::Game,
     move_generator::MoveGenerator,
 };
 

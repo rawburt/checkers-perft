@@ -8,7 +8,7 @@ use checkers_perft::{
 fn test_game(game: Game) {
     let mut board = Board::new();
     for m in game.moves {
-        let generated_moves = MoveGenerator::new(board.clone(), Color::Black).generate_moves();
+        let generated_moves = MoveGenerator::new(board, Color::Black).generate_moves();
         let black_move = m.black.into_move();
         assert!(
             generated_moves.contains(&black_move),
@@ -30,7 +30,7 @@ fn test_game(game: Game) {
         board.promote_kings();
         if let Some(white_move_detail) = m.white {
             let white_move = white_move_detail.into_move();
-            let generated_moves = MoveGenerator::new(board.clone(), Color::White).generate_moves();
+            let generated_moves = MoveGenerator::new(board, Color::White).generate_moves();
             assert!(
                 generated_moves.contains(&white_move),
                 "number= {}\nheaders= {}\nwhite_move= {}\ngenerated_moves= {:?}\nboard= {}",

@@ -28,16 +28,16 @@ pub struct MoveDetail {
 impl MoveDetail {
     pub fn into_move(self) -> Move {
         match self.kind {
-            MoveKind::Simple => self.from_simple(),
-            MoveKind::Jump => self.from_jumps(),
+            MoveKind::Simple => self.simple(),
+            MoveKind::Jump => self.jumps(),
         }
     }
 
-    fn from_simple(self) -> Move {
+    fn simple(self) -> Move {
         Move::new(Bitboard::from_notation_vector(&self.moves), Bitboard::new())
     }
 
-    fn from_jumps(self) -> Move {
+    fn jumps(self) -> Move {
         let len = self.moves.len();
         let dest = self.moves[len - 1];
         let start = self.moves[0];

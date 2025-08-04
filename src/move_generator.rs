@@ -46,7 +46,7 @@ impl MoveGenerator {
                 let jumped_bb = jumper_bb.jumped(destination_bb);
                 let current_move = Move::new(jumper_bb | destination_bb, jumped_bb);
 
-                let mut new_board = self.board.clone();
+                let mut new_board = self.board;
                 new_board.apply_move(self.color, &current_move);
 
                 let multiple_jumps = new_board.jumps(self.color, destination_bb);

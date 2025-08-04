@@ -97,7 +97,7 @@ impl Board {
         if !new_kings.is_empty() {
             self.kings |= new_kings;
         }
-        return new_kings;
+        new_kings
     }
 
     fn black_movers(&self) -> Bitboard {
@@ -109,7 +109,7 @@ impl Board {
             movers |= (empty >> 4) & kings;
             movers |= (empty >> 5) & kings;
         }
-        return movers;
+        movers
     }
 
     fn black_moves(&self, piece: Bitboard) -> Bitboard {
@@ -119,7 +119,7 @@ impl Board {
         if !king.is_empty() {
             moves |= (piece << 4 | piece << 5) & empty;
         }
-        return moves;
+        moves
     }
 
     fn black_jumpers(&self) -> Bitboard {
@@ -135,7 +135,7 @@ impl Board {
             jumped = (empty >> 5) & self.wp;
             jumpers |= (jumped >> 5) & kings;
         }
-        return jumpers;
+        jumpers
     }
 
     fn black_jumps(&self, piece: Bitboard) -> Bitboard {
@@ -147,7 +147,7 @@ impl Board {
             jumps |= ((piece << 4 & self.wp) << 4) & empty;
             jumps |= ((piece << 5 & self.wp) << 5) & empty;
         }
-        return jumps;
+        jumps
     }
 
     fn white_movers(&self) -> Bitboard {
@@ -159,7 +159,7 @@ impl Board {
             movers |= (empty << 4) & kings;
             movers |= (empty << 5) & kings;
         }
-        return movers;
+        movers
     }
 
     fn white_moves(&self, piece: Bitboard) -> Bitboard {
@@ -169,7 +169,7 @@ impl Board {
         if !king.is_empty() {
             moves |= (piece >> 4 | piece >> 5) & empty;
         }
-        return moves;
+        moves
     }
 
     fn white_jumpers(&self) -> Bitboard {
@@ -185,7 +185,7 @@ impl Board {
             jumped = (empty << 5) & self.bp;
             jumpers |= (jumped << 5) & kings;
         }
-        return jumpers;
+        jumpers
     }
 
     fn white_jumps(&self, piece: Bitboard) -> Bitboard {
@@ -197,7 +197,7 @@ impl Board {
             jumps |= ((piece >> 4 & self.bp) >> 4) & empty;
             jumps |= ((piece >> 5 & self.bp) >> 5) & empty;
         }
-        return jumps;
+        jumps
     }
 }
 

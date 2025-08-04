@@ -8,10 +8,12 @@ impl Bitboard {
         Bitboard(0)
     }
 
+    #[inline]
     pub fn is_empty(&self) -> bool {
         self.0 == 0
     }
 
+    #[inline]
     pub fn jumped(&self, destination: Bitboard) -> Bitboard {
         // assumes self and destination are single bit Bitboards
         let s = self.0.trailing_zeros();
@@ -37,6 +39,7 @@ impl Bitboard {
         notation
     }
 
+    #[inline]
     pub fn len(&self) -> usize {
         self.0.count_ones() as usize
     }

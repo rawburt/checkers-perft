@@ -22,7 +22,7 @@ impl MoveGenerator {
     }
 
     fn generate_simple_moves(&self) -> Vec<Move> {
-        let mut moves = Vec::new();
+        let mut moves = Vec::with_capacity(10);
         let movers = self.board.movers(self.color);
         for mover in movers {
             let mover_bb = Bitboard::from(mover);
@@ -37,7 +37,7 @@ impl MoveGenerator {
     }
 
     fn generate_jump_moves(&self, jumpers: Bitboard) -> Vec<Move> {
-        let mut jumps = Vec::new();
+        let mut jumps = Vec::with_capacity(7);
         for jumper in jumpers {
             let jumper_bb = Bitboard::from(jumper);
             let possible_jumps = self.board.jumps(self.color, jumper_bb);

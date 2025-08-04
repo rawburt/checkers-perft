@@ -40,11 +40,7 @@ impl Board {
     }
 
     pub fn from_bitboards(bp: Bitboard, wp: Bitboard, kings: Bitboard) -> Self {
-        Board {
-            bp,
-            wp,
-            kings,
-        }
+        Board { bp, wp, kings }
     }
 
     pub fn movers(&self, color: Color) -> Bitboard {

@@ -75,7 +75,9 @@ impl Game {
     }
 }
 
-pub fn parse_games_from_json_array_file<P: AsRef<Path>>(path: P) -> Result<Vec<Game>, serde_json::Error> {
+pub fn parse_games_from_json_array_file<P: AsRef<Path>>(
+    path: P,
+) -> Result<Vec<Game>, serde_json::Error> {
     let data = fs::read_to_string(path).expect("Unable to read file");
     serde_json::from_str(&data)
 }

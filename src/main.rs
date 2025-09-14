@@ -1,6 +1,7 @@
 use checkers_perft::board::{Board, Color};
 use clap::Parser;
 
+/// Run perft for checkers move generation
 #[derive(Parser, Debug)]
 struct Args {
     /// Depth of the search
